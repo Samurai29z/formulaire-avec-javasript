@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1><br>FORMULAIRE DWWM</br></h1>
+    <div class="form">
+    <table id="dja">
+        <tr>
+            <td class="che">Nom</td><td><input type="text" id="userinput1" placeholder="Entrez votre nom"></td>
+        </tr>
+        <tr>
+
+            <td class="che">Email</td> <td> <input type="text" id="userinput2" placeholder="Entrez votre Email"></td>
+        </tr>
+        <tr>
+            <td class="che">indiquez votre satisfaction au cours de 1 à 10 </td>
+            <td><input type="number" id="userinput3"  placeholder="numero de 1 à 10"> </td>
+        </tr>
+        <tr>
+            <td class="che">qui est votre coach</td><br/>
+            <td> <select id="userinput4">
+                <option value="birante">Birante</option>
+                <option value="Malick">Malick</option>
+                <option value="Mamadou">Mamadou</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td class="che">decrivez votre experience jusque là</td>
+            <td><br/><br/><textarea cols="25" rows="5" placeholder="decrivez votre experience ici..." id="userinput5"></textarea>
+            </td>
+        </tr>
+    </table>
+            <button type="submit" class="buton" onclick="myfunction()">verifier</button>
+            <div id="message"></div>
+            <P id="message1"> </p>
+            <p id="message2"> </p>
+            <p id="message3"> </p>
+            <p id="message4"> </p>
+            <p id="message5"> </p>
+    
+</div>
+</body>
+<script src="scrip.js"></script>
+</html>
